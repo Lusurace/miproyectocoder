@@ -1,6 +1,6 @@
 body {
   font-style: 16px;
-  background-color: #A6E8DC !important;
+  background-color: #fff !important;
   font-family: 'Raleway', sans-serif !important;
   font-weight: 100%;
   font-style: solid;
@@ -11,8 +11,6 @@ body {
 section {
   text-align: center; }
 
-/*p{
-	border: 1px solid #F1D4CA; */
 ol {
   color: #037368;
   font-family: comic sans-serif; }
@@ -22,35 +20,8 @@ a {
   color: #000;
   font-style: bold; }
 
-nav {
-  text-align: center;
-  background-color: #000;
-  line-height: 40px; }
-
-nav li a {
-  list-style: none;
-  color: #fff;
-  padding: 10px 10px; }
-
-nav ul {
-  list-style: none; }
-
-nav li {
-  display: inline-block;
-  width: 10%;
-  font-size: 14px space-around; }
-
-nav ul ul {
-  position: absolute;
-  display: none; }
-
-nav ul ul li {
-  display: block;
-  background-color: black;
-  width: 100%; }
-
-nav ul li:hover ul {
-  display: block; }
+span.text-muted a {
+  color: #858282 !important; }
 
 li {
   list-style: none; }
@@ -58,7 +29,7 @@ li {
 footer {
   align-content: left;
   overflow: auto;
-  background-image: linear-gradient(to bottom, #A6E8DC, #fff); }
+  background-image: linear-gradient(to right, #A6E8DC, #fff); }
 
 /*Class*/
 .h1 {
@@ -107,7 +78,7 @@ footer {
   padding: 2%; }
 
 .productos {
-  transition: all 2s;
+  transition: all 10s;
   height: 300px;
   width: 300px;
   padding: 20px; }
@@ -120,6 +91,9 @@ footer {
 .trans:focus {
   width: 200px;
   font-size: 24px; }
+
+.fixed-top {
+  color: #fff !important; }
 
 /*Id*/
 #video {
@@ -153,3 +127,12 @@ footer {
 .hijo1 img {
   border-radius: 50%;
   width: 100%; }
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+  .responsive {
+    grid-template: column 1fr; }
+  .responsive2 {
+    grid-template: column 1fr; }
+  .padre1 {
+    grid-template: column 1fr; } }

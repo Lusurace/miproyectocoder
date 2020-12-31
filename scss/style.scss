@@ -4,7 +4,7 @@ $verde: #037368;
 
 body {
 	font-style: $base-font-style;
-	background-color: #A6E8DC !important;
+	background-color:#fff !important;
 	font-family: 'Raleway', sans-serif !important;
    	font-weight: 100%;
    	font-style: solid;
@@ -18,7 +18,6 @@ section{
 }
 
 
-
 ol{
 	color:$verde;
 	font-family:comic sans-serif;
@@ -30,40 +29,9 @@ a{
 	font-style: bold;
 }
 
-nav{
-	text-align: center;
-	background-color:#000;
-	line-height: 40px;
 
-}
-
-nav li a{
-	list-style:none;
-	color: #fff;
-	padding: 10px 10px;
-}
-
-
-nav ul {
-   list-style: none;
-}
-nav li {
-   display: inline-block;
-   width: 10%;
-   font-size: 14px
-   space-around;
-}
-nav ul ul {
-   position: absolute;
-   display: none;
-}
-nav ul ul li {
-   display: block;
-   background-color: black;
-   width: 100%;
-}
-nav ul li:hover ul {
-   display:block;
+span.text-muted a{
+	color: #858282 !important;
 }
 
 
@@ -71,11 +39,11 @@ li{
 	list-style: none;
 }
 
+
 footer{
 	align-content:left;
 	overflow: auto;
- 	background-image: 
- 	linear-gradient(to bottom, #A6E8DC , #fff);
+ 	background-image: linear-gradient(to right, #A6E8DC, #fff);
 }
 /*Class*/
 
@@ -133,7 +101,7 @@ footer{
 } 
 
 .productos {
-	transition: all 2s; 
+	transition: all 10s; 
    height: 300px; width: 300px;
    padding: 20px;
    
@@ -152,7 +120,7 @@ footer{
 }
 
 .fixed-top{
-	color: #fff; !important;
+	color: #fff !important;
 }
 
 /*Id*/
