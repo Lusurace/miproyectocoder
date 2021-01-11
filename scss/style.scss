@@ -3,177 +3,161 @@ $base-font-style: 16px;
 $verde: #037368;
 
 body {
-	font-style: $base-font-style;
-	background-color:#fff !important;
-	font-family: 'Raleway', sans-serif !important;
-   	font-weight: 100%;
-   	font-style: solid;
-   	font-size: 1rem;
-   	padding: 0%;
-   	width: 100%;
-}
+  font-style: 16px;
+  background-color: #fff !important;
+  font-family: 'Raleway', sans-serif !important;
+  font-weight: 100%;
+  font-style: solid;
+  font-size: 1rem;
+  padding: 0%;
+  width: 100%; 
+ }
 
-section{
-	text-align: center;
-}
+section {
+  text-align: center; }
 
+ol {
+  color: #037368;
+  font-family: comic sans-serif; }
 
-ol{
-	color:$verde;
-	font-family:comic sans-serif;
-}
+a {
+  text-decoration: none;
+  color: #000;
+  font-style: bold; }
 
-a{
-	text-decoration: none;
-	color: #000;
-	font-style: bold;
-}
+span.text-muted a {
+  color: #858282 !important; }
 
+li {
+  list-style: none; }
 
-span.text-muted a{
-	color: #858282 !important;
-}
+footer {
+  align-content: center;
+  /*overflow: auto;*/
+  background-image: linear-gradient(to right, #A6E8DC, #fff); }
 
-
-li{
-	list-style: none;
-}
-
-
-footer{
-	align-content:left;
-	overflow: auto;
- 	background-image: linear-gradient(to right, #A6E8DC, #fff);
-}
 /*Class*/
+.h1 {
+  color: #1CA68D;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  text-align: center; }
 
-.h1{
-	color: #1CA68D;
-	font-family:'Roboto', sans-serif;
-   	font-weight: 100;
-   	text-align: center;
+.h2 {
+  color: #037368; }
+
+.p {
+  color: #037368;
+  text-align: left; 
 }
 
-.h2{
-	color:$verde;
-}
-
-.p{
-	color:$verde;
-	font-style: italic;
-	text-align:center;
-}
-.p1{
-	color:$verde;
-	font-style: italic;
-	text-align:center;
-	text-transform: uppercase; 
-}
-
-
-.stickyparaleer {
-    position: fixed;
-    top: 10px;
-    right: 1px;
-    left: 70px;
-}
-
-.stickyparaleer img {
-	width: 50%;
-}
+.p1 {
+  color: #037368;
+  font-style: italic;
+  text-align: center;
+  text-transform: uppercase; }
 
 .banner {
-	width: 100%;
-	display: inline-block;
-	align-content: center;
-	margin:0;
-}
-
-.productos{
-	width: 300px;
-	height: 300px;
-	display:flex-wrap;
-	justify-content: center;
-	align-items: stretch;
-	align-content: space-around;
-	margin:2%;
-	padding: 2%;   
-} 
+  width: 100%;
+  display: inline-block;
+  align-content: center;
+  margin: 0; }
 
 .productos {
-	transition: all 10s; 
-   height: 300px; width: 300px;
-   padding: 20px;
-   
-}
+  width: 300px;
+  height: 300px;
+  display: flex-wrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: space-around;
+  margin: 2%;
+  padding: 2%; }
 
+.productos {
+  transition: all 10s;
+  height: 300px;
+  width: 300px;
+  padding: 20px; }
 
 .trans {
-   width: 80px; height: 20px;
-   transition: all 2s;  
-
-}
+  width: 80px;
+  height: 20px;
+  transition: all 2s; }
 
 .trans:focus {
-   width: 200px;
-   font-size: 24px;
-}
+  width: 200px;
+  font-size: 24px; }
 
-.fixed-top{
-	color: #fff !important;
-}
+.fixed-top {
+  color: #fff !important; }
 
-/*Id*/
-
-
-#video{
-	display: inline-block;
-	align-content:center;
-	padding:0;
-	margin: 0;
-	width: 50%;
-	overflow: visible;
-}
-
-#form{
-	padding:0;
-	margin: 0;
-	align-items: center;
-}
+ 
 
 /*grid*/
-
-
-.padre1{
-		display: grid;
-		grid-template-columns: repeat(3,1fr);
-		flex-wrap: 1rem;
-		justify-content: center;
-		padding: 50px 25px;
-	}
+.padre1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  flex-wrap: 1rem;
+  justify-content: center;
+  padding: 50px 25px; }
 
 .hijo1 {
-	display: flex;
-	flex-direction: column;
-	padding: 1rem;
-	text-align: center;
-	justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  text-align: center;
+  justify-content: space-between;
 }
-.hijo1 img{
-	border-radius: 50%;
-	width: 100%;
+
+.hijo1 img {
+  border-radius: 50%;
+  width: 100%; 
+}
+ 
+/* Google Maps Responsive */
+.map-responsive {
+    overflow:hidden;
+    padding-bottom:400px; /*Reduce este valor si el mapa fuera muy alto, por ejemplo 250px, puedes usar porcentajes, 50%*/
+    position:relative;
+    height:0;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+
+
+ /*Id*/
+#video {
+  display: inline-block;
+  align-content: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  overflow: visible;
+}
+
+#form {
+  border: 4px solid black;
+  padding: 0;
+  margin: 0;
+ }
+
+#form fieldset{
+   align-content: left;
 
 }
 
 /*// Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) { 
-	.responsive{
-		grid-template: column 1fr;
-	}
-	.responsive2{
-		grid-template: column 1fr;
-	}
-	.padre1{
-		grid-template: column 1fr;
-
-	}}
+@media (min-width: 576px) {
+  .responsive {
+    grid-template: column 1fr; }
+  .responsive2 {
+    grid-template: column 1fr; }
+  .padre1 {
+    grid-template: column 1fr; } }
