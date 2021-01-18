@@ -1,7 +1,3 @@
-$base-font-style: 16px;
-
-$verde: #037368;
-
 body {
   font-style: 16px;
   background-color: #fff !important;
@@ -10,11 +6,11 @@ body {
   font-style: solid;
   font-size: 1rem;
   padding: 0%;
-  width: 100%; 
- }
+  width: 100%; }
 
 section {
-  text-align: center; }
+  text-align: center; 
+}
 
 ol {
   color: #037368;
@@ -33,8 +29,46 @@ li {
 
 footer {
   align-content: center;
-  /*overflow: auto;*/
-  background-image: linear-gradient(to right, #A6E8DC, #fff); }
+  overflow: auto;
+  background-image: linear-gradient(to right, #A6E8DC, #fff); 
+}
+
+
+
+/*Formulario de contacto*/
+form {
+  width:500px; 
+  border: 4px solid #999;
+  border-radius: 3px;
+  padding: 10px;
+  margin: 0 auto;  
+ }
+
+input{
+  outline:none;
+  border:0;
+  border: solid 1px #ccc;
+  padding: 10px;
+}
+
+textarea{
+  border: solid 1px #ccc;
+  padding: 10px;
+}
+
+select{
+  border: solid 1px #ccc;
+  padding: 20px;
+}
+
+.field:focus{
+  border-color:#037368;
+}
+
+.field{
+  width:450px;
+}
+
 
 /*Class*/
 .h1 {
@@ -48,7 +82,8 @@ footer {
 
 .p {
   color: #037368;
-  text-align: left; 
+  text-align: center;
+  padding:20px; 
 }
 
 .p1 {
@@ -77,21 +112,33 @@ footer {
   transition: all 10s;
   height: 300px;
   width: 300px;
-  padding: 20px; }
+  padding: 20px; 
+}
 
-.trans {
-  width: 80px;
-  height: 20px;
-  transition: all 2s; }
+/*footer*/
 
-.trans:focus {
-  width: 200px;
-  font-size: 24px; }
+.icon{
+  width:90%;
+  padding:5%;
+}
 
-.fixed-top {
-  color: #fff !important; }
+.mail{
+  width:30%;
+  justify-content: center;
+  text-align:center;
+}
 
+.footer{
+  text-align: center;
+  padding-top: 1%;
+}
  
+.div-padding{
+  padding-top: 120px;
+}
+.div-padding2{
+  padding-top: 50px;
+}
 
 /*grid*/
 .padre1 {
@@ -99,59 +146,32 @@ footer {
   grid-template-columns: repeat(3, 1fr);
   flex-wrap: 1rem;
   justify-content: center;
-  padding: 50px 25px; }
+  padding: 50px 25px;
+}
 
 .hijo1 {
   display: flex;
   flex-direction: column;
   padding: 1rem;
   text-align: center;
-  justify-content: space-between;
+  justify-content: space-between; 
 }
 
 .hijo1 img {
   border-radius: 50%;
-  width: 100%; 
-}
+  width: 100%; }
  
-/* Google Maps Responsive */
-.map-responsive {
-    overflow:hidden;
-    padding-bottom:400px; /*Reduce este valor si el mapa fuera muy alto, por ejemplo 250px, puedes usar porcentajes, 50%*/
-    position:relative;
-    height:0;
-}
-
-.map-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-}
-
-
-
  /*Id*/
 #video {
   display: inline-block;
   align-content: center;
-  padding: 0;
+  padding: 10px;
   margin: 0;
   width: 100%;
   overflow: visible;
 }
 
-#form {
-  border: 4px solid black;
-  padding: 0;
-  margin: 0;
- }
 
-#form fieldset{
-   align-content: left;
-
-}
 
 /*// Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {

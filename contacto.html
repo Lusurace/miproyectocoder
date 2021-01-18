@@ -85,88 +85,87 @@
 	</header>
 
 	<section>
-			<h1 class="h1">Formulario de Contacto y Pedidos</h1>
-			<h2 class="h2">Dejanos toda tu info y si estas interesado en algo en especial y nos contactamos con vos a la brevedad</h2>
+			<h1 class="h1">Contacto</h1>
+			<h2 class="h2">Dejanos toda tu info y  nos contactamos con vos a la brevedad</h2>
 	</section>
 
 	<section>
-		<form id="form" class="p">
-				<fieldset>
-					<legend>Información personal</legend>
+		<form class="p">
+
 						<label for="nombre">Nombre</label>
-						<input class="trans" type="text" name="nombre">
+						<input class="field" type="text" name="nombre"><br/>
 					
 						<label for="apellido">Apellido</label>
-						<input class="trans" type="tex" name="apellido">
+						<input class="field" type="text" name="apellido"><br/>
 						
 						<label for="e-mail">E-MAIL</label>
-						<input class="trans" type="tex" name="e-mail">
+						<input class="field" type="text" name="e-mail" placeholder="nombre@email.com"><br/>
 					
-						<div>
+					
 						<label for="sexo">Sexo</label>
-						<div>Mujer</div>
-						<input type="radio" name="sexo" value="mujer">
-						<div>Hombre</div>
-						<input type="radio" name="sexo"   value="hombre">
-						<div>Otrx</div>
-						<input type="radio" name="sexo" value="otrx">
-						</div>
+						<div>Mujer<input class="field" type="radio" name="sexo" value="mujer"></div>
 						
-						<div>
-						<label for="detallatupedido">Detalla tu pedido</label>
-						<textarea name="detallatupedido" placeholder="Detalla tu pedido"></textarea>
-						</div>
-
-						<label>Opciones de envío</label>
+						<div>Hombre<input class="field" type="radio" name="sexo" value="hombre"></div>
 						
-						<select name="opciones">
-							<option value="1">Correo Argentino</option>
-							<option value="2">OCA</option>
-							<option value="3">Retiro por tienda</option>
-						</select>
+						<div>Otrx<input class="field" type="radio" name="sexo" value="otrx"></div>
 						
-
-						<div>
-							<label>Formas de Pago</label>
-							<select name="formas">
-								<option value="1">Mercado Pago</option>
-								<option value="2">Transferencia Bancaria</option>
-								<option value="3">Efectivo a contra entrega</option>
-							</select>
-						</div>
-
-						<div>
-							<label for="comentarios">Comentarios del pedido</label>
-							<textarea name="comentarios"></textarea>
-						</div>
-
-						<label for="porpedidosalpormayor">Por pedidos al por mayor consultar aquí</label>
+						
+						<label for="detallatupedido"> Mensaje </label>
+						<textarea class="field" name="detallatupedido" placeholder="Escriba aqui"></textarea>
 					
-						<textarea name="porpedidosalpormayor"></textarea>
+
+						<label for="porpedidosalpormayor">Por pedidos al x mayor consultar aquí</label>
+						<textarea class="field" name="porpedidosalpormayor"></textarea>
+
 						<div class="container">
-							<input type="reset" name="borrar">
-							<input type="submit" name="enviarformulario">
+							<button type="reset" class="btn btn-secondary btn-lg btn-block" name="borrar">Borrar</button>
 							<button type="button" class="btn btn-secondary btn-lg btn-block">Enviar</button>
 						</div>
-				</fieldset>
-
+			</form>	
 	</section>
 
-
-
 	<footer>
-			<div>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-3 div-padding2"><p class="footer">CONTACTO</p><p class="footer">flordeloto@gmail.com</p> <p class="footer">Tel:1134109313</p><p class="footer">Hurlingham, Buenos Aires, Argentina</p> <p class="footer">loren impsumjjasjasechewhbcuqbewcbq</p></a></div>
 
-				<p> Contacto </P> 
-				
-				<p> flordeloto@gmail.com</p>
-				
-				<p>https://pency.app/flordeloto</p>
+					<div class="col-1 div-padding">
+						<a target="_blank" href="https://api.whatsapp.com/send/?phone=5491133109313&text&app_absent=0">	 <img class="icon" src="img/whatsapp.svg">
+						</a>
+					</div>
 
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26276.16894479955!2d-58.65573661199688!3d-34.590981870277446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb9254c083df5%3A0x87b633dca0937bac!2sHurlingham%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1609963100675!5m2!1ses!2sar" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-				
-			</div>	
-	</footer>
+					<div class="col-1 div-padding">
+						<a target="_blank" href="https://pency.app/flordeloto"> 
+							<img class="icon" src="img/carrito.svg">
+						</a>
+					</div>
+
+					<div class="col-1 div-padding">
+						<a target="_blank" href="https://www.instagram.com/flordeloto_hechoamano/"> 
+							<img class="icon" src="img/instagram.svg">
+						</a>
+					</div>
+
+					<div class="col-1 div-padding">
+						<a target="_blank" href="https://www.facebook.com/flordelotohechoamano">
+							<img class="icon" src="img/facebook.svg"></a></div>
+
+					<div class="col-5 div-padding2">
+						<p class="footer">UBICACION</p>
+						<div class="footer">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26276.16894479955!2d-58.65573661199688!3d-34.590981870277446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb9254c083df5%3A0x87b633dca0937bac!2sHurlingham%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1609963100675!5m2!1ses!2sar" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+						</div>
+				</div>
+			</div>
+
+			<div class="container">
+				<div class="row">
+					<div class="col-12"><p class="footer">© 2020 Copyright Flordeloto_Hechoamano</p><p class="footer">Designed by Ommlu</p></div>
+				</div>
+			</div>
+		
+		</footer>
+		
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
