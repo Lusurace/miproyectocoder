@@ -1,12 +1,12 @@
 body {
-  font-style: 16px;
   background-color: #fff !important;
   font-family: 'Raleway', sans-serif !important;
-  font-weight: 100%;
-  font-style: solid;
+  /*font-weight: 100%;*/
+  /*font-style: solid;*/
   font-size: 1rem;
   padding: 0%;
-  width: 100%; }
+  width: 100%; 
+}
 
 section {
   text-align: center; 
@@ -14,18 +14,22 @@ section {
 
 ol {
   color: #037368;
-  font-family: comic sans-serif; }
+  font-family: comic sans-serif; 
+}
 
 a {
   text-decoration: none;
   color: #000;
-  font-style: bold; }
+  /*font-style: bold;*/ 
+}
 
 span.text-muted a {
-  color: #858282 !important; }
+  color: #858282 !important; 
+}
 
 li {
-  list-style: none; }
+  list-style: none; 
+}
 
 footer {
   align-content: center;
@@ -75,10 +79,12 @@ select{
   color: #1CA68D;
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
-  text-align: center; }
+  text-align: center; 
+}
 
 .h2 {
-  color: #037368; }
+  color: #037368; 
+}
 
 .p {
   color: #037368;
@@ -90,23 +96,26 @@ select{
   color: #037368;
   font-style: italic;
   text-align: center;
-  text-transform: uppercase; }
+  text-transform: uppercase; 
+}
 
 .banner {
   width: 100%;
   display: inline-block;
   align-content: center;
-  margin: 0; }
+  margin: 0; 
+}
 
 .productos {
   width: 300px;
   height: 300px;
-  display: flex-wrap;
+  /* display: flex-wrap;*/
   justify-content: center;
   align-items: stretch;
   align-content: space-around;
   margin: 2%;
-  padding: 2%; }
+  padding: 2%; 
+}
 
 .productos {
   transition: all 10s;
@@ -118,9 +127,14 @@ select{
 /*footer*/
 
 .icon{
-  width:90%;
+  width:100%;
   padding:5%;
 }
+
+.icon2{
+  width: 100% !important;
+}
+
 
 .mail{
   width:30%;
@@ -128,7 +142,7 @@ select{
   text-align:center;
 }
 
-.footer{
+.footer2{
   text-align: center;
   padding-top: 1%;
 }
@@ -136,15 +150,17 @@ select{
 .div-padding{
   padding-top: 120px;
 }
+
 .div-padding2{
   padding-top: 50px;
 }
 
 /*grid*/
+
 .padre1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  flex-wrap: 1rem;
+  /*flex-wrap: 1fr;*/
   justify-content: center;
   padding: 50px 25px;
 }
@@ -159,9 +175,11 @@ select{
 
 .hijo1 img {
   border-radius: 50%;
-  width: 100%; }
+  width: 100%; 
+}
  
  /*Id*/
+
 #video {
   display: inline-block;
   align-content: center;
@@ -174,10 +192,14 @@ select{
 
 
 /*// Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) {
+/* @media (min-width: 576px){
   .responsive {
-    grid-template: column 1fr; }
+    grid-template: column 1fr; 
+  }
   .responsive2 {
-    grid-template: column 1fr; }
+    grid-template: column 1fr; 
+  }
   .padre1 {
-    grid-template: column 1fr; } }
+    grid-template: column 1fr; 
+  } 
+  }*/
