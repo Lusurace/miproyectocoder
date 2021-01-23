@@ -30,6 +30,10 @@ footer {
   overflow: auto;
   background-image: linear-gradient(to right, #A6E8DC, #fff); }
 
+footer iframe {
+  width: 100%;
+  height: 100%; }
+
 /*Formulario de contacto*/
 form {
   width: 500px;
@@ -71,6 +75,7 @@ select {
 .p {
   color: #037368;
   text-align: center;
+  text-align: justify;
   padding: 20px; }
 
 .p1 {
@@ -144,6 +149,9 @@ select {
   width: 100%; }
 
 /*Id*/
+#carouselExampleIndicators {
+  margin-top: 56px; }
+
 #video {
   display: inline-block;
   align-content: center;
@@ -152,15 +160,45 @@ select {
   width: 100%;
   overflow: visible; }
 
+@media (min-width: 768px) {
+  .responsive, footer {
+    min-width: 768px;
+    padding: 0 5%; }
+  footer iframe {
+    width: 60%;
+    height: 60%; } }
+
+@media (min-width: 425px) {
+  .responsive, footer {
+    min-width: 425px;
+    padding: 0 5%; }
+  footer iframe {
+    width: 80%;
+    height: 80%; } }
+
+@media (min-width: 375px) {
+  .responsive, footer {
+    min-width: 375px;
+    padding: 0 5%; }
+  footer iframe {
+    width: 100%;
+    height: 100%; } }
+
+@media (min-width: 320px) {
+  .responsive, footer {
+    min-width: 320px;
+    padding: 0 5%; }
+  footer iframe {
+    width: 100%;
+    height: 100%; } }
+
 /*// Small devices (landscape phones, 576px and up)*/
 /* @media (min-width: 576px){
-  .responsive {
-    grid-template: column 1fr; 
-  }
+ 
   .responsive2 {
     grid-template: column 1fr; 
   }
   .padre1 {
     grid-template: column 1fr; 
-  } 
+  }
   }*/
