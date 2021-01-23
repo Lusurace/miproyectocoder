@@ -1,8 +1,6 @@
 body {
   background-color: #fff !important;
   font-family: 'Raleway', sans-serif !important;
-  /*font-weight: 100%;*/
-  /*font-style: solid;*/
   font-size: 1rem;
   padding: 0%;
   width: 100%; }
@@ -16,8 +14,7 @@ ol {
 
 a {
   text-decoration: none;
-  color: #000;
-  /*font-style: bold;*/ }
+  color: #000; }
 
 span.text-muted a {
   color: #858282 !important; }
@@ -74,7 +71,6 @@ select {
 
 .p {
   color: #037368;
-  text-align: center;
   text-align: justify;
   padding: 20px; }
 
@@ -90,10 +86,9 @@ select {
   align-content: center;
   margin: 0; }
 
-.productos {
+.index {
   width: 300px;
   height: 300px;
-  /* display: flex-wrap;*/
   justify-content: center;
   align-items: stretch;
   align-content: space-around;
@@ -101,10 +96,31 @@ select {
   padding: 2%; }
 
 .productos {
-  transition: all 10s;
   height: 300px;
   width: 300px;
-  padding: 20px; }
+  padding: 20px;
+  justify-content: center;
+  align-items: stretch;
+  align-content: space-around;
+  margin: 2%;
+  padding: 2%; }
+
+.sticky {
+  position: fixed;
+  top: 10%;
+  right: 5%;
+  text-align: right; }
+
+.sticky img {
+  width: 30%; }
+
+.sticky a:hover {
+  text-decoration: none;
+  background-color: transparent; }
+
+.sticky a:focus {
+  text-decoration: none;
+  background-color: transparent; }
 
 /*footer*/
 .icon {
@@ -130,21 +146,20 @@ select {
   padding-top: 50px; }
 
 /*grid*/
-.padre1 {
+.padre {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  /*flex-wrap: 1fr;*/
   justify-content: center;
   padding: 50px 25px; }
 
-.hijo1 {
+.hijo {
   display: flex;
   flex-direction: column;
   padding: 1rem;
   text-align: center;
   justify-content: space-between; }
 
-.hijo1 img {
+.hijo img {
   border-radius: 50%;
   width: 100%; }
 
@@ -191,14 +206,3 @@ select {
   footer iframe {
     width: 100%;
     height: 100%; } }
-
-/*// Small devices (landscape phones, 576px and up)*/
-/* @media (min-width: 576px){
- 
-  .responsive2 {
-    grid-template: column 1fr; 
-  }
-  .padre1 {
-    grid-template: column 1fr; 
-  }
-  }*/
