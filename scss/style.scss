@@ -42,12 +42,12 @@ footer iframe {
 
 
 /*Formulario de contacto*/
-form {
-  width:500px; 
+form  section.p{
+  width:1%;
   border: 4px solid #999;
   border-radius: 3px;
   padding: 10px;
-  margin: 0 auto;  
+  margin: 0 auto; 
  }
 
 input{
@@ -219,8 +219,7 @@ select{
   overflow: visible;
 }
 
-/*  (media tablet)
-*/
+/*  (media tablet) */
 @media (min-width: 768px) {
   .responsive, footer {
     min-width: 768px;
@@ -249,12 +248,22 @@ select{
   .hijo img {
     border-radius: 5%; 
   }
+
+  /*Formulario de contacto*/
+  form {
+  width: 50%; 
+  border: 4px solid #999;
+  border-radius: 3px;
+  padding: 10px;
+  margin: 0 auto;  
+  }
+
 }
 
 
 
 /*  (media mobileL) */
-@media (min-width: 425px){
+@media (min-width: 425px) {
   .responsive, footer {
     min-width: 425px;
     padding: 0 5%;
@@ -282,11 +291,22 @@ select{
   .hijo img {
     border-radius: 5%; 
   }
+
+  /*Formulario de contacto*/
+
+  form section.p {
+    width:50%; 
+    border: 4px solid #999;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 0 auto;  
+  }
+
 }
 
 
 /*  (media mobileM) */
-@media (min-width: 375px){
+@media (min-width: 375px) {
   .responsive, footer {
     min-width: 375px;
     padding: 0 5%;
@@ -313,36 +333,57 @@ select{
   .hijo img {
     border-radius: 5%; 
   }
+
+  /*Formulario de contacto*/
+  form section.p{
+    width:90%; 
+    border: 4px solid #999;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 0 auto;  
+  }
+
 }
 
 /*  (media mobileS) */
-@media (min-width: 320px){
-  .responsive, footer {
-    min-width: 320px;
-    padding: 0 5%;
-  }
+@media (min-width: 320px) {
+   
+    .responsive, footer {
+      min-width: 320px;
+      padding: 0 5%;
+    }
 
-  footer iframe{
-    width: 100%;
-    height: 100%;
-  }
-  .padre {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
-    padding: 10px 25px;
-  }
+    footer iframe {
+      width: 100%;
+      height: 100%;
+    }
 
-  .hijo{ 
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-    justify-content: space-between; 
-  }
+    .padre {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      justify-content: center;
+      padding: 10px 25px;
+    }
 
-  .hijo img {
-    border-radius: 5%; 
-  }
+    .hijo{ 
+      display: flex;
+      flex-direction: column;
+      padding: 1rem;
+      justify-content: space-between; 
+    }
+
+    .hijo img {
+      border-radius: 5%; 
+    }
+    /*Formulario de contacto*/
+
+    form section.p {
+      width:95%; 
+      border: 4px solid #999;
+      border-radius: 3px;
+      padding: 2%;
+      margin: 0 auto;  
+    }
 
 }
 
