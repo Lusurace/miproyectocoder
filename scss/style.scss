@@ -183,34 +183,13 @@ select{
   padding-top: 50px;
 }
 
-/*grid*/
+/*galeria*/
 
-.padre {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-content: center;
-  padding: 10px 10px;
-  border: 10px solid blue; 
+#galeria img{
+  width: 100%;
 }
 
-.hijo{ 
-  display: flex;
-  flex-direction: column;
-  padding: 1rem;
-  justify-content: space-between;
-  border: 10px solid red; 
-}
 
-.hijo img {
-  border: 1px solid red;
-  border-radius: 5%; 
-}
-
-.nieto{
-  display: block;
-  border: 1px solid black;
-}
- 
  /*Id*/
 
 #carouselExampleIndicators {
@@ -236,24 +215,6 @@ select{
   footer iframe {
     width: 60%;
     height: 60%;
-  }
-
-  .padre {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
-    padding: 10% 2%;
-  }
-
-  .hijo { 
-    display: flex;
-    flex-direction: column;
-    padding: 5%;
-    justify-content: space-between; 
-  }
-
-  .hijo img {
-    border-radius: 5%; 
   }
 
   /*Formulario de contacto*/
@@ -308,24 +269,6 @@ select{
     height: 80%;
   }
 
-  .padre {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    justify-content: center;
-    padding: 50px 25px;
-  }
-
-  .hijo { 
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-    justify-content: space-between; 
-  }
-
-  .hijo img {
-    border-radius: 5%; 
-  }
-
   /*Formulario de contacto*/
 
   form section.f {
@@ -371,24 +314,6 @@ select{
   footer iframe{
     width: 100%;
     height: 100%;
-  }
-
-  .padre {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    justify-content: center;
-    padding: 50px 25px;
-  }
-
-  .hijo{ 
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-    justify-content: space-between; 
-  }
-
-  .hijo img {
-    border-radius: 5%; 
   }
 
   /*Formulario de contacto*/
@@ -438,23 +363,6 @@ select{
       height: 100%;
     }
 
-    .padre {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      justify-content: center;
-      padding: 10px 25px;
-    }
-
-    .hijo{ 
-      display: flex;
-      flex-direction: column;
-      padding: 1rem;
-      justify-content: space-between; 
-    }
-
-    .hijo img {
-      border-radius: 5%; 
-    }
     /*Formulario de contacto*/
 
     section.f {
