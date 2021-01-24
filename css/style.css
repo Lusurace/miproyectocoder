@@ -1,7 +1,8 @@
 body {
   background-color: #fff !important;
-  font-family: 'Raleway', sans-serif !important;
-  font-size: 1rem;
+  font-family: "Josefin Slab", serif !important;
+  font-size: 1.5em !important;
+  font-weight: 500;
   padding: 0%;
   width: 100%; }
 
