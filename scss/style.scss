@@ -42,12 +42,15 @@ footer iframe {
 
 
 /*Formulario de contacto*/
-form  section.p{
-  width:1%;
+
+section .p{
+  width:10%;
+  height: 100%;
   border: 4px solid #999;
   border-radius: 3px;
-  padding: 10px;
-  margin: 0 auto; 
+  padding: 2px;
+  margin: 0 auto;
+  text-align: justify-all; 
  }
 
 input{
@@ -72,7 +75,11 @@ select{
 }
 
 .field{
-  width:450px;
+  width:80%;
+}
+
+.container{
+  width: 10%;
 }
 
 
@@ -250,12 +257,39 @@ select{
   }
 
   /*Formulario de contacto*/
-  form {
-  width: 50%; 
-  border: 4px solid #999;
+
+  form section.p{
+  width: 60%; 
+  border: 5px solid #999;
   border-radius: 3px;
   padding: 10px;
   margin: 0 auto;  
+  }
+
+  input{
+  outline:none;
+  border:0;
+  border: solid 1px #ccc;
+  padding: 10px;
+  }
+
+  textarea{
+  border: solid 1px #ccc;
+  padding: 10px;
+  }
+
+  select{
+  border: solid 1px #ccc;
+  padding: 20px;
+  }
+
+
+  .field:focus{
+    border-color:#037368;
+    }
+
+  .field{
+  width:70%;
   }
 
 }
@@ -295,13 +329,36 @@ select{
   /*Formulario de contacto*/
 
   form section.p {
-    width:50%; 
-    border: 4px solid #999;
+    width:70%; 
+    border: 5px solid #999;
     border-radius: 3px;
     padding: 10px;
     margin: 0 auto;  
   }
+  input{
+  outline:none;
+  border:0;
+  border: solid 1px #ccc;
+  padding: 10px;
+  }
 
+  textarea{
+  border: solid 1px #ccc;
+  padding: 10px;
+  }
+
+  select{
+  border: solid 1px #ccc;
+  padding: 20px;
+  }
+
+  .field:focus{
+    border-color:#037368;
+    }
+
+  .field{
+  width:70%;
+  }
 }
 
 
@@ -336,13 +393,36 @@ select{
 
   /*Formulario de contacto*/
   form section.p{
-    width:90%; 
-    border: 4px solid #999;
+    width:80%; 
+    border: 5px solid #999;
     border-radius: 3px;
     padding: 10px;
     margin: 0 auto;  
   }
+  input{
+  outline:none;
+  border:0;
+  border: solid 1px #ccc;
+  padding: 10px;
+  }
 
+  textarea{
+  border: solid 1px #ccc;
+  padding: 10px;
+  }
+
+  select{
+  border: solid 1px #ccc;
+  padding: 20px;
+  }
+
+  .field:focus{
+    border-color:#037368;
+    }
+
+  .field{
+  width:80%;
+  }
 }
 
 /*  (media mobileS) */
@@ -377,13 +457,36 @@ select{
     }
     /*Formulario de contacto*/
 
-    form section.p {
-      width:95%; 
-      border: 4px solid #999;
+    section.p {
+      width:90%; 
+      border: 5px solid #999;
       border-radius: 3px;
-      padding: 2%;
+      padding: 10%;
       margin: 0 auto;  
     }
+    input{
+    outline:none;
+    border:0;
+    border: solid 1px #ccc;
+    padding: 10px;
+    }
 
+    textarea{
+    border: solid 1px #ccc;
+    padding: 10px;
+    }
+
+    select{
+    border: solid 1px #ccc;
+    padding: 20px;
+    }
+
+    .field:focus{
+    border-color:#037368;
+    }
+
+    .field{
+    width:80%;
+    }
 }
 
