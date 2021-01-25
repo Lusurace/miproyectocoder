@@ -161,11 +161,12 @@ select {
   margin-top: 56px; }
 
 #video {
-  display: inline-block;
+  display: inline;
   align-content: center;
   padding: 10px;
-  margin: 0;
-  width: 100%;
+  margin: 10px;
+  width: 80%;
+  height: 1%;
   overflow: visible; }
 
 /*  (media tablet) */
